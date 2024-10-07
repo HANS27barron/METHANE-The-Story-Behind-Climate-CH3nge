@@ -1,0 +1,10 @@
+webbrowser
+streamlit_folium
+pandas
+io
+requests
+folium.plugins
+folium
+branca
+matplotlib.pyplot
+plotly.graph_objects
