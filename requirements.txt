@@ -1,8 +1,1 @@
 webbrowser
-streamlit_folium
-pandas
-io
-requests
-folium.plugins
-folium
-branca
