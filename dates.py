@@ -1,5 +1,4 @@
-import webbrowser
-from matplotlib import cm
+
 import requests
 import folium
 from folium import Map, Marker, Popup, TileLayer
