@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e58948635e48e876e5bb515d14fdcd6a {
+                #map_21ed12fabf6a80270dd000b04997de8e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_e58948635e48e876e5bb515d14fdcd6a" ></div>
+            <div class="folium-map" id="map_21ed12fabf6a80270dd000b04997de8e" ></div>
         
 </body>
 <script>
     
     
-            var map_e58948635e48e876e5bb515d14fdcd6a = L.map(
-                "map_e58948635e48e876e5bb515d14fdcd6a",
+            var map_21ed12fabf6a80270dd000b04997de8e = L.map(
+                "map_21ed12fabf6a80270dd000b04997de8e",
                 {
                     center: [34.0, -118.0],
                     crs: L.CRS.EPSG3857,
@@ -60,43 +60,22 @@
 
         
     
-            var tile_layer_9c8157a5c73db9480f341ed8fe3afa20 = L.tileLayer(
+            var tile_layer_e062af7a7d05ad996c0c2ea61e510675 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_9c8157a5c73db9480f341ed8fe3afa20.addTo(map_e58948635e48e876e5bb515d14fdcd6a);
+            tile_layer_e062af7a7d05ad996c0c2ea61e510675.addTo(map_21ed12fabf6a80270dd000b04997de8e);
         
     
-            var tile_layer_8e4031cfccb05455db0a2c513e2e1a8e = L.tileLayer(
-                "https://earth.gov/ghgcenter/api/raster/collections/lpjeosim-wetlandch4-monthgrid-v2/items/lpjeosim-wetlandch4-monthgrid-v2-200309/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?assets=ensemble-mean-ch4-wetlands-emissions\u0026color_formula=gamma+r+1.05\u0026colormap_name=plasma\u0026color_formula=gamma+r+1.05\u0026rescale=0.0%2C2.7181124018227365e-09\u0026resolution=high",
+            var tile_layer_1437241a5211c58e5aaadce60b1a4e4b = L.tileLayer(
+                "https://earth.gov/ghgcenter/api/raster/collections/lpjeosim-wetlandch4-monthgrid-v2/items/lpjeosim-wetlandch4-monthgrid-v2-202108/tiles/WebMercatorQuad/{z}/{x}/{y}@1x?assets=ensemble-mean-ch4-wetlands-emissions\u0026color_formula=gamma+r+1.05\u0026colormap_name=twilight_shifted\u0026color_formula=gamma+r+1.05\u0026rescale=0.0%2C3.083727717623219e-09\u0026resolution=high",
                 {"attribution": "GHG", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 0.8, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_8e4031cfccb05455db0a2c513e2e1a8e.addTo(map_e58948635e48e876e5bb515d14fdcd6a);
+            tile_layer_1437241a5211c58e5aaadce60b1a4e4b.addTo(map_21ed12fabf6a80270dd000b04997de8e);
         
-    
-            var marker_803c8ee6796f97ecabbb3a819d88bee8 = L.marker(
-                [34.0, -118.0],
-                {}
-            ).addTo(map_e58948635e48e876e5bb515d14fdcd6a);
-        
-    
-        var popup_b40b15f9ddf9aa5c015478ebe53a13da = L.popup({"autoClose": false, "closeOnClick": false, "maxWidth": "100%"});
-
-        
-            
-                var html_61a9ff857434973251aa5d27f6708fa2 = $(`<div id="html_61a9ff857434973251aa5d27f6708fa2" style="width: 100.0%; height: 100.0%;">This layer shows CH4 emissions from wetlands.</div>`)[0];
-                popup_b40b15f9ddf9aa5c015478ebe53a13da.setContent(html_61a9ff857434973251aa5d27f6708fa2);
-            
-        
-
-        marker_803c8ee6796f97ecabbb3a819d88bee8.bindPopup(popup_b40b15f9ddf9aa5c015478ebe53a13da)
-        ;
-
-        
-    
 </script>
 </html>
